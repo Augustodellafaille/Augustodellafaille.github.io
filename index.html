@@ -2,13 +2,60 @@
 <head>
   <meta charset="UTF-8">
   <title>About me</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 </head>
-<body>
+<body >
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">About Me</a></li>
+  <li role="presentation"><a href="#">Bio</a></li>
+  <li role="presentation"><a href="#">Contact</a></li>
+</ul>
+<section id="carousel">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+          <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+            <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item">
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <h1>Augusto della Faille</h1>
   <h3>RoR dev</h3>
   <p>I learned Ruby on Rails at the bootcamp Le Wagon Brussels where I have the opportunity to be present at the start of Jygo, startup which is localized in Paris, It has the aim to make a collaboratif shopping experience between busy people and student. </p>
   <h3>Data scientist "en devenir"</h3>
-  <p></p>
+  <p>I was always passionated by statistics, new technology and also by finding little thing that can make big differences. With those motivations, I think that big data is a good area that mix everything.</p>
   <h3>Culture Addict</h3>
+  <p>Educated by parents pasionated by Arts, I have an interest in fine arts, music and also movies. I think that arts is important in the identity of people and culture is of a great deal in todays world. </p>
 </body>
 </html>
