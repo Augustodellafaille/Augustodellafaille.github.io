@@ -6,10 +6,16 @@ body{
 div.container{
   background-color:rgba(146,167,224,0.8);
   margin-top: 288px;
+
 }
-h1{
-  color: #3A4C5A;
+div.container-fluid{
+
 }
+  .h1{
+    color: #3A4C5A;
+
+ }
+
 h3{
   color:#3A4C5A;
 }
