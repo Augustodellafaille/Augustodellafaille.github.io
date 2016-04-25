@@ -23,8 +23,17 @@ h3{
 p{
   color:#7A306C;
 }
-img{
-  width: 250px;
-  height: 250px ;
+img.img-circle{
+  width: 200px;
+  height: 210px;
   border-radius: 50%;
+
+}
+div.timeline-image{
+  width: 200px;
+  height:200px;
+
+}
+ul{
+  list-style: none;
 }
