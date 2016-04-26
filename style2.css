@@ -5,7 +5,7 @@ body{
 }
 div.container{
   background-color:rgba(146,167,224,0.8);
-  margin-top: 288px;
+  margin-top: 80px;
   border-radius: 10px;
 
 }
@@ -24,15 +24,22 @@ p{
   color:#7A306C;
 }
 img.img-circle{
-  width: 200px;
-  height: 210px;
+  padding-top: 10px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 
+}
+.timeline{
+  position: relative;
 }
 div.timeline-image{
   width: 200px;
   height:200px;
 
+}
+div.timeline-heading{
+  text-align: left;
 }
 ul{
   list-style: none;
