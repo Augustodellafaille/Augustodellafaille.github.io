@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
 }
 div.container{
-  background-color:rgba(146,167,224,0.8);
+  background-color:rgba(146,167,224,0.9);
   margin-top: 80px;
   border-radius: 10px;
 }
@@ -14,7 +14,8 @@ h3{
   color:#3A4C5A;
 }
 p{
-  color:#7A306C;
+  color:#084C61;
+
 }
 img.img-circle{
   padding-top: 10px;
@@ -37,6 +38,7 @@ div.timeline-heading{
 }
 div.timeline-body{
   font-family: 'Quicksand', sans-serif;
+
 }
 
 ul{

@@ -4,17 +4,17 @@ body{
   background-repeat: no-repeat;
 }
 div.container{
-  background-color:rgba(146,167,224,0.8);
+  background-color:rgba(146,167,224,0.9);
   margin-top: 288px;
   border-radius: 10px;
 
 }
 div.container-fluid{
 
-  background-color:rgba(146,167,224,0.8);
+  background-color:rgba(146,167,224,0.9);
   margin-top: 28px;
   border-radius: 10px;
-  color:  #7A306C;
+  color:  #084C61;
   text-align: center;
   font-family: 'Lobster', cursive;
  }
@@ -23,7 +23,7 @@ h3{
    font-family: 'Lobster', cursive;
 }
 p{
-  color:#7A306C;
+  color:#084C61;
   font-family: 'Quicksand', sans-serif;
 }
 img{
