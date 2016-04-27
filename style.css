@@ -11,20 +11,30 @@ div.container{
 }
 div.container-fluid{
 
-}
-  .h1{
-    color: #3A4C5A;
-
+  background-color:rgba(146,167,224,0.8);
+  margin-top: 28px;
+  border-radius: 10px;
+  color:  #7A306C;
+  text-align: center;
+  font-family: 'Lobster', cursive;
  }
-
 h3{
-  color:#3A4C5A;
+
+   font-family: 'Lobster', cursive;
 }
 p{
   color:#7A306C;
+  font-family: 'Quicksand', sans-serif;
 }
 img{
   width: 250px;
   height: 250px ;
   border-radius: 50%;
+}
+h3.title{
+  font-family: 'Lobster', cursive;
+}
+#future{
+  font:bold;
+
 }

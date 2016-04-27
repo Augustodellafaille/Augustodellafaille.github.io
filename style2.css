@@ -7,15 +7,8 @@ div.container{
   background-color:rgba(146,167,224,0.8);
   margin-top: 80px;
   border-radius: 10px;
-
 }
-div.container-fluid{
 
-}
-  .h1{
-    color: #3A4C5A;
-
- }
 
 h3{
   color:#3A4C5A;
@@ -40,10 +33,13 @@ div.timeline-image{
 }
 div.timeline-heading{
   text-align: left;
+  font-family: 'Lobster', cursive;
 }
+div.timeline-body{
+  font-family: 'Quicksand', sans-serif;
+}
+
 ul{
   list-style: none;
 }
-#entrance{
-  visibility: hidden;
-}
+
