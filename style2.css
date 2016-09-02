@@ -34,14 +34,16 @@ div.timeline-image{
 }
 div.timeline-heading{
   text-align: left;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', bold,sans-serif;
 }
 div.timeline-body{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', medium, sans-serif;
 
 }
 
 ul{
   list-style: none;
 }
-
+div.phone{
+  padding-left: 20%;
+}

@@ -16,15 +16,15 @@ div.container-fluid{
   border-radius: 10px;
   color:  #084C61;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', bold,sans-serif;
  }
 h3{
 
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', bold,sans-serif;
 }
 p{
   color:#084C61;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', medium, sans-serif;
 }
 img{
   width: 250px;
@@ -32,9 +32,15 @@ img{
   border-radius: 50%;
 }
 h3.title{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',bold, sans-serif;
 }
 #future{
   font:bold;
 
+}
+div.phone{
+  padding-left: 20%;
+}
+footer{
+  margin-bottom: 10%;
 }
