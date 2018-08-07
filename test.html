@@ -39,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h1> Hello World </h1>
 <script> 
   function myFirstTag(){
-    utag.link({
+    dataLayer.push({
       "button_param1" : "baaa",
       "button_param2"  : "fooo"
     });
@@ -48,5 +48,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>
 <a href='bio.html'><button type="button" onclick="myFirstTag()">My First Tag</button></a>
 </p>
+
+<!-- <form>
+<input type="button" value="My First Tag2" onclick="myFirstTag()" href='bio.html' />
+</form> -->
 </body>
 </html>
