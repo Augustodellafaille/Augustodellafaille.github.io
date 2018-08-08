@@ -37,6 +37,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <h1> Hello World </h1>
+
+<br>
+<br>
+<h3>Button tag</h3>
 <script> 
   function myFirstTag(){
     dataLayer.push({
@@ -46,9 +50,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </script>
 <p>
-<a href='bio.html'><button type="button" onclick="myFirstTag()">My First Tag</button></a>
+<a href='success.html'><button type="button" onclick="myFirstTag()">My First Tag</button></a>
 </p>
-
+<br>
+<br>
+<h3>Checkbox tag</h3>
 <br>
 <script>
 function checked() {
@@ -121,6 +127,21 @@ function checked() {
   <label class="form-check-label" for="defaultCheck5" onclick="checked()" >
     Vendredi
   </label>
+</div>
+<br>
+<br>
+<h3>Input tag</h3>
+<br>
+<script >
+  function inputText() {
+  return document.getElementsByName("UnitPrice")[0].value; 
+}
+</script>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Enter Somthing" aria-label="" aria-describedby="basic-addon1" onclick="inputText()" name="FromCheckBox">
+  <div class="input-group-append">
+   <a href='success.html'> <button class="btn btn-success" type="button">Love it</button></a>
+  </div>
 </div>
 <!-- <form>
 <input type="button" value="My First Tag2" onclick="myFirstTag()" href='bio.html' />
