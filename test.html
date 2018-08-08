@@ -50,34 +50,75 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
 
 <br>
-
+<script>
+function checked() {
+    var check = jQuery('defaultCheck1').attr("checked");
+    if(check === "checked") {
+    return Lundi;
+    } else {
+    return false;
+    }
+};
+function checked() {
+    var check = jQuery('defaultCheck2').attr("checked");
+    if(check === "checked") {
+    return Mardi;
+    } else {
+    return false;
+    }
+};
+function checked() {
+    var check = jQuery('defaultCheck3').attr("checked");
+    if(check === "checked") {
+    return Mercredi;
+    } else {
+    return false;
+    }
+};
+function checked() {
+    var check = jQuery('defaultCheck4').attr("checked");
+    if(check === "checked") {
+    return Jeudi;
+    } else {
+    return false;
+    }
+};
+function checked() {
+    var check = jQuery('defaultCheck5').attr("checked");
+    if(check === "checked") {
+    return Vendredi;
+    } else {
+    return false;
+    }
+};
+</script>
 
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="Lundi" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
+  <input class="form-check-input" type="checkbox" value="Lundi" id="defaultCheck">
+  <label class="form-check-label" for="defaultCheck1" onclick="checked()" >
     Lundi
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="Mardi" id="defaultCheck2">
-  <label class="form-check-label" for="defaultCheck2">
+  <input class="form-check-input" type="checkbox" value="Mardi" id="defaultCheck">
+  <label class="form-check-label" for="defaultCheck2" onclick="checked()" >
     Mardi
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="Mercredi" id="defaultCheck3">
-  <label class="form-check-label" for="defaultCheck1">
+  <input class="form-check-input" type="checkbox" value="Mercredi" id="defaultCheck">
+  <label class="form-check-label" for="defaultCheck1" onclick="checked()">
     Mercredi
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="Jeudi" id="defaultCheck4">
-  <label class="form-check-label" for="defaultCheck1">
+  <input class="form-check-input" type="checkbox" value="Jeudi" id="defaultCheck">
+  <label class="form-check-label" for="defaultCheck1" onclick="checked()">
     Jeudi
   </label>
 </div><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="Vendredi" id="defaultCheck5">
-  <label class="form-check-label" for="defaultCheck1">
+  <input class="form-check-input" type="checkbox" value="Vendredi" id="defaultCheck">
+  <label class="form-check-label" for="defaultCheck1" onclick="checked()" >
     Vendredi
   </label>
 </div>
