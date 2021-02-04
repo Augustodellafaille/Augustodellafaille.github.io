@@ -21,82 +21,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<br>
 	<br>
 	<br>
-
-	<script>
-function checked() {
-    var check = jQuery('defaultCheck1').attr("checked");
-    if(check === "checked") {
-    return Lundi;
-    } else {
-    return false;
-    }
-};
-function checked() {
-    var check = jQuery('defaultCheck2').attr("checked");
-    if(check === "checked") {
-    return Mardi;
-    } else {
-    return false;
-    }
-};
-function checked() {
-    var check = jQuery('defaultCheck3').attr("checked");
-    if(check === "checked") {
-    return Mercredi;
-    } else {
-    return false;
-    }
-};
-function checked() {
-    var check = jQuery('defaultCheck4').attr("checked");
-    if(check === "checked") {
-    return Jeudi;
-    } else {
-    return false;
-    }
-};
-function checked() {
-    var check = jQuery('defaultCheck5').attr("checked");
-    if(check === "checked") {
-    return Vendredi;
-    } else {
-    return false;
-    }
-};
-</script>
-
-	<form>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="1 month" xml:id="defaultCheck" id="1 month">
-  <label class="form-check-label" for="defaultCheck1" onclick="checked()" >
-   1 month
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="2 months" xml:id="defaultCheck" id="2 months">
-  <label class="form-check-label" for="defaultCheck2" onclick="checked()" >
-    2 months
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="3 months" xml:id="defaultCheck" id="3 months">
-  <label class="form-check-label" for="defaultCheck3" onclick="checked()">
-    3 months
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="4 months" xml:id="defaultCheck" id="4 months">
-  <label class="form-check-label" for="defaultCheck4" onclick="checked()">
-    4 months
-  </label>
-</div><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="4 Months" xml:id="defaultCheck " id="4 Months">
-  <label class="form-check-label" for="defaultCheck5" onclick="checked()" >
-    4 Months
-  </label>
-</div>
-
-	<a href='success3.html'><button>ajouter au panier</button></a>
+	
+<form method="post">
+	<select name="Icecream Flavours">
+		<option value="double chocolate">Double Chocolate</option>
+		<option value="vanilla">Vanilla</option>
+		<option value="strawberry">Strawberry</option>
+		<option value="caramel">Caramel</option>
+	</select>
 </form>
+
+<input href="success3.html"type="submit" value="Submit now" />
 </body>
 </html>
