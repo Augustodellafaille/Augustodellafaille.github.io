@@ -39,20 +39,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
 
 
 	<h1>This is the datalayer page</h1>
+<h2>Native DataLayer for Tealium</h2>
 
 	<h2>Formule Epicurien</h2>
-	<h2>Native DataLayer for Tealium The Colruyt way</h2>
-
-	<a href='success2.html' class="Epic_click" onclick="udata.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Abonnement'})"><button>Je m'abonne</button></a>
-	<a href='success2.html' class="Epic_click" onclick="udata.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Cadeau'})"><button>J'offre</button></a>
+	<a href='success2.html' onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Epicurien',interaction_details2:'Type - Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Epicurien',interaction_details2:'Type - Cadeau'})"><button>J'offre</button></a>
 	<h2>Formule Explorateur</h2>
-	<a href='success2.html' class="Expl_click" onclick="udata.push({'event':'customerChoice','productFormul':'Explorateur','productType':'Abonnement'})"><button>Je m'abonne</button></a>
-	<a href='success2.html' class="Expl_click" onclick="udata.push({'event':'customerChoice','productFormul':'Explorateur','productType':'Cadeau'})"><button>J'offre</button></a>
+	<a href='success2.html'  onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Explorateur',interaction_details2:'Type - Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Explorateur',interaction_details2:'Type - Cadeau'})"><button>J'offre</button></a>
 	<h2>Formule Hédoniste</h2>
-	<a href='success2.html' class="Hedonist_click" onclick="udata.push({'event':'customerChoice','productFormul':'Hédoniste','productType':'Abonnement'})"><button>Je m'abonne</button></a>
-	<a href='success2.html' class="Hedonist_click" onclick="udata.push({'event':'customerChoice','productFormul':'Hédoniste','productType':'Cadeau'})"><button>J'offre</button></a>
+	<a href='success2.html' onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Hédoniste',interaction_details2:'Type - Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' onclick="udata.push({event_name: 'interaction', interaction_name: 'customerChoice',intraction_details1:'Formule - Hédoniste',interaction_details2:'Type - Cadeau'})"><button>J'offre</button></a>
 
 <h2> Native DataLayer for GA </h2>
+	<h2>Formule Epicurien</h2>
 	<a href='success2.html' class="Epic_click" onclick="dataLayer.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Abonnement'})"><button>Je m'abonne</button></a>
 	<a href='success2.html' class="Epic_click" onclick="dataLayer.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Cadeau'})"><button>J'offre</button></a>
 	<h2>Formule Explorateur</h2>
