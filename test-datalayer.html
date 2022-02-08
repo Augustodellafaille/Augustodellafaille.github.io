@@ -3,24 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>DataLayer Page 1</title>
 	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W8XPDTZ');</script>
+})(window,document,'script','dataLayer','GTM-W8XPDTZ');</script> -->
 <!-- End Google Tag Manager -->
+<script type="text/javascript">
+udata.push({event_name: 'page navigation', 
+			env_language: 'en',
+			env_brand: 'udata4ever',
+			env_shop: 'udata shop',
+			env_country: 'BE',
+			env_platform: 'website'
+			page_name: 'udata test page',
+			page_template: 'dataLayer page',
+			page_type: 'dataLayer',
+			page_language:'en',
+			user_id:'21345643456765R234163',
+			user_logged: 'yes',
+			});
+</script>
 </head>
 <body>
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8XPDTZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript> -->
+<!-- Google Tag Manager (noscript) -->
+	<!-- <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8XPDTZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
 <!-- End Google Tag Manager (noscript) -->
+<!-- </noscript> -->
+	
+
+
 	<h1>This is the datalayer page</h1>
 
 	<h2>Formule Epicurien</h2>
+	<h2>Native DataLayer for Tealium The Colruyt way</h2>
 
+	<a href='success2.html' class="Epic_click" onclick="udata.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' class="Epic_click" onclick="udata.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Cadeau'})"><button>J'offre</button></a>
+	<h2>Formule Explorateur</h2>
+	<a href='success2.html' class="Expl_click" onclick="udata.push({'event':'customerChoice','productFormul':'Explorateur','productType':'Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' class="Expl_click" onclick="udata.push({'event':'customerChoice','productFormul':'Explorateur','productType':'Cadeau'})"><button>J'offre</button></a>
+	<h2>Formule Hédoniste</h2>
+	<a href='success2.html' class="Hedonist_click" onclick="udata.push({'event':'customerChoice','productFormul':'Hédoniste','productType':'Abonnement'})"><button>Je m'abonne</button></a>
+	<a href='success2.html' class="Hedonist_click" onclick="udata.push({'event':'customerChoice','productFormul':'Hédoniste','productType':'Cadeau'})"><button>J'offre</button></a>
+
+<h2> Native DataLayer for GA </h2>
 	<a href='success2.html' class="Epic_click" onclick="dataLayer.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Abonnement'})"><button>Je m'abonne</button></a>
 	<a href='success2.html' class="Epic_click" onclick="dataLayer.push({'event':'customerChoice','productFormul':'Epicurien','productType':'Cadeau'})"><button>J'offre</button></a>
 	<h2>Formule Explorateur</h2>
