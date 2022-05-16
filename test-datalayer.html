@@ -54,6 +54,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
 
 
 	<h1>This is the datalayer page</h1>
+<h2>search bar event</h2>
+<div class="input-group">
+	<div class="form-outline">
+	  <input type="search" id="form1" class="form-control" />
+	  <label class="form-label" for="form1">Search</label>
+	</div>
+	<button type="button" class="btn btn-primary"onclick="udata.push({event_name: 'search', search_terms: 'tomatoes', search_category:'search bare'})">
+	  <i class="fas fa-search"></i>
+	</button>
+  </div>
 <h2>Btn Test for GA4</h2>
 <a href='success2.html' onclick="udata.push({event_name: 'search', search_terms: 'tomatoes', search_category:'search bare'})"><button>This is a search in a search bar :) </button></a>
 <br>
